@@ -54,7 +54,7 @@ export default {
             file: 'en-US.js'
           },
           {
-            name: 'Japanese',
+            name: '日本語',
             code: 'ja',
             iso: 'ja-JP',
             file: 'ja-JP.js'

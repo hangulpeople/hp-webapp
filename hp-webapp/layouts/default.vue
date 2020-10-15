@@ -61,15 +61,8 @@ export default {
           title: 'Welcome',
           to: '/',
         },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
-        },
       ],
       miniVariant: false,
-      right: true,
-      rightDrawer: false,
       title: this.$t('header.title'),
     }
   },

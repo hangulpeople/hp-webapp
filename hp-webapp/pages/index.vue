@@ -2,8 +2,7 @@
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
       <div class="text-center">
-        <logo />
-        <vuetify-logo />
+        <img class="HangulImage" alt="Hangul Image" src="/images/hangul.svg" />
       </div>
       <v-card>
         <v-card-title class="headline">
@@ -79,6 +78,14 @@
     </v-col>
   </v-row>
 </template>
+
+<style>
+.HangulImage {
+  height: 180px;
+  width: 180px;
+}
+</style>
+
 
 <script>
 import Logo from '~/components/Logo.vue'
