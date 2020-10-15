@@ -2,7 +2,7 @@
 export default {
   header:
   {
-    title: '한글 피플',
+    title: '어메이징 한글',
   },
   page:
   {

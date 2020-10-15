@@ -2,7 +2,7 @@
 export default {
   header:
   {
-    title: 'ハングル ピープル',
+    title: '한구루 다이스키',
   },
   page:
   {
