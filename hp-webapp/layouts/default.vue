@@ -66,5 +66,13 @@ export default {
       title: this.$t('header.title'),
     }
   },
+  mounted:function(){
+    this.updateDrawerOnCreated();
+  },
+  methods: {
+    updateDrawerOnCreated(){
+      this.drawer = window.innerWidth > 1000? true : false;
+    },
+  }
 }
 </script>
