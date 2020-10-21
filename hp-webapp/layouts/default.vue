@@ -15,7 +15,9 @@
           <v-list-item-content>
             <v-list-item-title>Minimize</v-list-item-title>
           </v-list-item-content>
-          </v-list-item>
+        </v-list-item>
+
+
         <v-list-item
           v-for="(item, i) in items"
           :key="i"
@@ -50,6 +52,13 @@
 
 <script>
 export default {
+  head() {
+    return {
+      meta: [
+        { hid: 'og:image', name: 'og:image', content: '/images/hangul.svg' }
+      ],
+    }
+  },
   data() {
     return {
       clipped: true,
